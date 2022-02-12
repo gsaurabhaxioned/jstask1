@@ -128,9 +128,18 @@ li {
   display: inline-block;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner ul {
+  display: flex;
+  justify-content: space-between;
+}
+
 .banner ul li {
   width: 6.5%;
-  margin-left: 17px;
   position: relative;
   transition: all ease-in-out 1s;
   cursor: pointer;
